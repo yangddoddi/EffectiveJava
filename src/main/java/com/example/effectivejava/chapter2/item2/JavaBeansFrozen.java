@@ -21,17 +21,13 @@ public class JavaBeansFrozen {
         }
     }
 
-    public void isFrozen() {
-        this.isFrozen=true;
-    }
-
-    public void freezing(boolean frozen) {
+    public void freeze() {
         if ( isFrozen ) {
-            isFrozen = frozen;
+            isFrozen = true;
         }
     }
 
-    public void unFreezing() {
+    public void unFreeze() {
 
         isFrozen = false;
     }

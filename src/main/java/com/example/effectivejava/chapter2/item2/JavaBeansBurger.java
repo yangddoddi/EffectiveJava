@@ -16,48 +16,24 @@ public class JavaBeansBurger {
     private int lettuce;
     private int source;
 
-    public int getBread() {
-        return bread;
-    }
-
     public void setBread(int bread) {
         this.bread = bread;
-    }
-
-    public int getPatty() {
-        return patty;
     }
 
     public void setPatty(int patty) {
         this.patty = patty;
     }
 
-    public int getOnion() {
-        return onion;
-    }
-
     public void setOnion(int onion) {
         this.onion = onion;
-    }
-
-    public int getTomato() {
-        return tomato;
     }
 
     public void setTomato(int tomato) {
         this.tomato = tomato;
     }
 
-    public int getLettuce() {
-        return lettuce;
-    }
-
     public void setLettuce(int lettuce) {
         this.lettuce = lettuce;
-    }
-
-    public int getSource() {
-        return source;
     }
 
     public void setSource(int source) {

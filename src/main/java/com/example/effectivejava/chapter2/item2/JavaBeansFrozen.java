@@ -21,8 +21,8 @@ public class JavaBeansFrozen {
         }
     }
 
-    public boolean isFrozen() {
-        return isFrozen;
+    public void isFrozen() {
+        this.isFrozen=true;
     }
 
     public void freezing(boolean frozen) {
@@ -32,6 +32,7 @@ public class JavaBeansFrozen {
     }
 
     public void unFreezing() {
+
         isFrozen = false;
     }
 }

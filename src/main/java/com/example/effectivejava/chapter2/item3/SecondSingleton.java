@@ -22,5 +22,4 @@ public class SecondSingleton<T> implements Parent {
 //        System.out.println(instance2==instance);
         System.out.println(instance.hashCode() == instance2.hashCode());
     }
-
 }

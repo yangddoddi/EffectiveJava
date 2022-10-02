@@ -5,7 +5,7 @@ public class EffectiveAutoboxing {
 //        Long sum = 0L;
         long sum = 0L;
         /*
-        * 6배 차이남..
+        * 내 실행 환경에서 6배 차이난다.
         * */
         for (long i=0; i<= Integer.MAX_VALUE; i++) {
             sum += i;

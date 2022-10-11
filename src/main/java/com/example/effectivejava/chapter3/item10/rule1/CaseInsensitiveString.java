@@ -24,11 +24,10 @@ public class CaseInsensitiveString {
     public static void main(String[] args) {
         CaseInsensitiveString stupidEquals = new CaseInsensitiveString("바보");
         String stupid = "바보";
-        System.out.println(stupidEquals.equals(stupid)); // true
+        System.out.println(stupidEquals.equals(stupid));
 
         List<CaseInsensitiveString> list = new ArrayList<>();
         list.add(stupidEquals);
-
-        System.out.println(list.contains(stupid)); // false
+        System.out.println(list.contains(stupid));
     }
 }

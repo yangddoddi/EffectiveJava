@@ -1,5 +1,6 @@
 package com.example.effectivejava.chapter3.item13;
 
+import com.example.effectivejava.chapter3.item11.PhoneNumber;
 import lombok.ToString;
 
 import java.util.HashMap;
@@ -31,8 +32,8 @@ public class PhoneNum implements Cloneable {
         map.put(phoneNum, "냠냠");
 
         PhoneNum clone = phoneNum.clone();
-        System.out.println(map.get(clone)); // hash값이 다르니 null
-        System.out.println(clone != phoneNum); // hashr값이 다르므로 true
+        System.out.println(map.get(clone));
+        System.out.println(clone != phoneNum);
         System.out.println(clone.getClass() == phoneNum.getClass());
         System.out.println(clone.equals(phoneNum));
     }
